@@ -258,3 +258,18 @@ bodyTag.setAttribute("class","desktopMode");
 …and then hiding/showing relevant content as required using the .deviceMode/.desktopMode classes.
 
 -	In mobile view, aim to maximise the designer’s content area by avoiding padding/margins on the designer’s container or its ancestors.
+
+## Installation via Git Protocol (Yarn)
+
+You can add this repository as a dependency to your project using Yarn and the Git protocol.
+
+To install, run the following command in your project's directory:
+
+```bash
+yarn add git+https://github.com/USERNAME/AAM.Js.git
+```
+
+**Important:** Replace `USERNAME` with the actual GitHub username or organization that owns this repository.
+
+This command will fetch the repository directly from GitHub and add it to your project's dependencies in your `package.json`. For more details, please see the [official Yarn documentation on the Git protocol](https://yarnpkg.com/protocol/git).
+
